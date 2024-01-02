@@ -1,0 +1,33 @@
+form:
+    domain: go.ruc.edu.cn
+    username: ""
+    userType:
+    password: ""
+    ip: ""
+meta:
+    "n": "200"
+    type: "1"
+    acid: "6"
+   #enc: srun_bx1
+settings:
+    basic:
+        https: false
+        skip_cert_verify: false
+        timeout: 5
+        interfaces: ""
+    guardian:
+        enable: false
+        duration: 300
+    log:
+        debug_level: false
+        write_file: false
+        log_path: ./
+        log_name: ""
+    ddns:
+        enable: false
+        ttl: 600
+        domain: www.example.com
+        provider: cloudflare
+        config:
+            token: ""
+            zone: ""
