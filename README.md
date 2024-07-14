@@ -1,7 +1,7 @@
 # RUC-Web-Login
 Login RUC-Web on Linux
 
-编辑配置文件 `Config.yaml`，修改 `username`，`password`, `ip`
+编辑配置文件 `Config.yaml`，修改 `username`，`password`
 
 ```yaml
 form:
@@ -9,7 +9,6 @@ form:
     username: ""
     userType:
     password: ""
-    ip: ""
 ```
 
 运行命令

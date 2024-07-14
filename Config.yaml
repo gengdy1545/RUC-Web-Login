@@ -3,7 +3,6 @@ form:
     username: ""
     userType:
     password: ""
-    ip: ""
 meta:
     "n": "200"
     type: "1"
