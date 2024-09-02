@@ -1,5 +1,5 @@
 # RUC-Web-Login
-Login RUC-Web on Linux
+Login RUC-Web on Linux (only tested on Ubuntu)
 
 编辑配置文件 `Config.yaml`，修改 `username`，`password`
 
