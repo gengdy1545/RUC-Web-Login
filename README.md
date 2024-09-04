@@ -17,5 +17,18 @@ form:
 ./bitsrun --config=Config.yaml
 ```
 
+### 多网卡配置
+
+编辑配置文件 `Config.yaml`，修改 `interfaces` 为网卡名称
+
+```bash
+settings:
+    basic:
+        https: false
+        skip_cert_verify: false
+        timeout: 5
+        interfaces: ""
+```
+
 -----
 基于 https://github.com/Mmx233/BitSrunLoginGo 的智能登录脚本
