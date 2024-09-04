@@ -21,7 +21,7 @@ form:
 
 编辑配置文件 `Config.yaml`，修改 `interfaces` 为网卡名称
 
-```bash
+```yaml
 settings:
     basic:
         https: false
